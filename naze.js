@@ -4072,13 +4072,21 @@ Select Bot Settings:
 ├ *Limit* : ${isVip ? 'VIP' : db.users[m.sender].limit }
 ├ *Money* : ${db.users[m.sender] ? db.users[m.sender].money.toLocaleString('id-ID') : '0'}
 ╰─┬────❍
-╭─┴─❍「 *BOT INFO* 」❍
-├ *Nama Bot* : ${set?.botname || 'Naze Bot'}
-├ *Powered* : @${'0@s.whatsapp.net'.split('@')[0]}
-├ *Owner* : @${ownerNumber[0].split('@')[0]}
-├ *Mode* : ${naze.public ? 'Public' : 'Self'}
-├ *Prefix* :${set.multiprefix ? '「 MULTI-PREFIX 」' : ' *'+prefix+'*' }
-├ *Premium Feature* : 🔸️
+╭─┴─❍「 *MENU BOT* 」❍
+├ .botmenu
+├ .gamemenu
+├ .toolsmenu
+├ .searchmenu
+├ .downloadmenu
+├ .quotesmenu
+├ .stalkermenu
+├ .funmenu
+├ .animemenu
+├ .ownermenu
+├ .allmenu
+├ .groupmenu
+├ .randommenu
+├ .aimenu
 ╰─┬────❍
 ╭─┴─❍「 *ABOUT* 」❍
 ├ *Date* : ${date}
